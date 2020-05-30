@@ -1,0 +1,259 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header
+{
+    height: 100%;
+    background-image: url("images/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header img
+{
+    width: 100px;
+    padding-top: 12px;
+    float: left;
+}
+.login-btn
+{
+    width: 100px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid white ;
+    border-radius: 50px ;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+
+.header h1
+{
+    padding-top: 120px;
+    padding-bottom: 0px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-group
+{
+    width: 90% ;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px; 
+}
+.form-control
+{
+    border: none !important; 
+    border-radius: 30px!important;
+    margin: 2px;
+    box-shadow: none!important;
+}
+.input-group-text
+{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: none !important;
+    color: white!important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.features
+{
+    padding: 100px 0px;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+{
+    width: 100%; 
+}
+.price
+{
+    width: 70px;
+    height: 70px;
+    background: tomato;
+    color: white;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+
+}
+.feature-img 
+{
+    position: relative;
+}
+.rating
+{
+    padding:3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa
+{
+    font-size:15px ;
+    color:tomato;
+}
+.feature-details
+{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top:20px ;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+
+.feature-box   /* no effect shown in output */
+{
+    box-shadow: 0 0 10x 1px rgba(37,73,214,0.18);
+    margin-bottom:30px ;
+}
+.gallery
+{
+    padding: 100px 0px;
+    background: #efefef;
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+.gallery-box  img :hover  /*no effect visible*/
+{
+    transform: scale(1.5);
+}
+.gallery-box h4
+{
+    display: block;
+    color:tomato;
+    text-shadow: -2px 2px 2px white;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box
+{
+    position: relative;
+    margin-top: 30px;
+}
+.banner
+{
+    height: 80%;
+    background-image: url(images/banner2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 15%;
+}
+.banner-highlights
+{
+    padding: 20px 0;
+    background: rgba(64, 65, 64, 0.7);
+    text-align: center;
+    color: white;
+}
+.booking-btn
+{
+    width: 120px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.users-feedback
+{
+    padding:100px 0;
+}
+.user-review  /*No effect shown*/
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);      
+    padding-bottom: 50px;
+}
+.user-review p
+{
+padding:50px 10px 10px 10px
+}
+.users-feedback img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 80%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.footer
+{
+    color: white;
+    padding: 70px 20px;
+    background: linear-gradient(#0a9e43,#37cee9);    
+}
+.footer-logo
+{
+    width: 100px;
+    float: left;   
+}
+.footer h4
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+.footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart
+{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright
+{
+    text-align: center;
+}

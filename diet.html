@@ -1,0 +1,80 @@
+<html>
+    <head>
+      <title>Dietologist</title>
+      <link href="style1.css" rel="stylesheet"/>
+    </head>
+    <body>
+		<div class="hero">
+		
+		<center>
+		
+      <h1>Dietologist</h1>
+	  </center>
+	  
+      <span>Gender</span>
+      <input type="radio" name="gender" value="1" checked onclick="update();"/> Male
+      <input type="radio" name="gender" value="0" /> Female <br>
+      <span>Height</span> <input type="text" id="height" size="3" maxlength="3" value="185" /> cm <br>
+      <span>Weight</span> <input type="text" id="weight" size="3" maxlength="3" value="80" /> kg <br>
+      <span>Age</span> <input type="text" id="age" size="3" maxlength="3" value="30" /> years <br>
+      
+      <span1>Activity level</span1>
+      <input type="radio" name="activity" value="0" /> 0
+      <input type="radio" name="activity" value="1" checked /> 1-2
+      <input type="radio" name="activity" value="2" /> 3-5
+      <input type="radio" name="activity" value="3" /> 6-7
+      <input type="radio" name="activity" value="4" /> 2x  days/week <br />
+
+      <span1>Macro ratios</span1>
+      <input type="radio" name="ratios" value="0" checked onclick="set_ratio(40,30,30);" /> Balanced
+      <input type="radio" name="ratios" value="1" onclick="set_ratio(20,40,40);" /> Low Carb
+      <input type="radio" name="ratios" value="2" onclick="set_ratio(50,30,20);" /> High Carb
+      <input type="radio" name="ratios" value="3" /> Custom <br />
+
+      <input type="text" size="2" maxlength="2" id="carbratio" /> % Carbs <br />
+      <input type="text" size="2" maxlength="2" id="proteinratio" /> % Proteins <br />
+      <input type="text" size="2" maxlength="2" id="fatratio" disabled /> % Fats <br />
+
+      <span>Dieting type</span>
+      <input type="radio" name="diettype" value="0" checked /> Lose
+      <input type="radio" name="diettype" value="1" /> Maintain
+      <input type="radio" name="diettype" value="2" /> Gain <br />
+
+      <span1>Deficit/surplus</span1>
+      <input type="text" size="4" maxlength="4" id="deficit" value="500"/> Calories/day <br />
+      <br />
+
+      <b>Results</b> <br />
+      <span>BMI</span>
+      <span id="BMI" class="out"></span><br />
+      <span>Body fat</span>
+      <span id="bodyfat" class="out"></span> %<br />
+      <span>Lean mass</span>
+      <span id="leanmass"></span> kg<br />
+      <span>Fat mass</span>
+      <span id="fatmass"></span> kg<br />
+      <span>BMR</span>
+      <span id="BMR"></span> kcal<br />
+      <span>Mainteinance</span>
+      <span id="mainteinance"></span> kcal<br />
+      <span>Goal</span>
+      <span id="goal"></span> kcal<br />
+      <br>
+      <b>Total daily calorie intake</b> <br />
+      <span>Carbs</span>
+      <span id="carbg"></span> <span>g</span> 
+      <span id="carbcal"></span> kcal <br />
+      <span>Proteins</span>
+      <span id="proteing"></span> <span>g</span>
+      <span id="proteincal"></span> kcal <br />
+      <span>Fats</span>
+      <span id="fatg"></span> <span>g</span>
+      <span id="fatcal"></span> kcal <br />
+      <span>Total</span>
+      <span id="totalg"></span> <span>g</span>
+      <span id="totalcal"></span> kcal <br />
+
+      <script src="diet.js"></script>
+      </div>
+    </body>
+</html>
